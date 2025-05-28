@@ -10,6 +10,7 @@ dependencies = [
     "langchain-community>=0.3.24",
     "langchain-core>=0.3.61",
     "langchain-experimental>=0.3.4",
+    "langchain-mcp-adapters>=0.1.1",
     "langchain-openai>=0.3.18",
     "langfuse>=2.60.7",
     "langgraph>=0.4.7",

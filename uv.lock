@@ -11,6 +11,7 @@ dependencies = [
     { name = "langchain-community" },
     { name = "langchain-core" },
     { name = "langchain-experimental" },
+    { name = "langchain-mcp-adapters" },
     { name = "langchain-openai" },
     { name = "langfuse" },
     { name = "langgraph" },
@@ -34,6 +35,7 @@ requires-dist = [
     { name = "langchain-community", specifier = ">=0.3.24" },
     { name = "langchain-core", specifier = ">=0.3.61" },
     { name = "langchain-experimental", specifier = ">=0.3.4" },
+    { name = "langchain-mcp-adapters", specifier = ">=0.1.1" },
     { name = "langchain-openai", specifier = ">=0.3.18" },
     { name = "langfuse", specifier = ">=2.60.7" },
     { name = "langgraph", specifier = ">=0.4.7" },
@@ -1162,6 +1164,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/27/56/a8acbb08a03383c28875b3b151e4cefea5612266917fbd6fc3c14c21e172/langchain_experimental-0.3.4.tar.gz", hash = "sha256:937c4259ee4a639c618d19acf0e2c5c2898ef127050346edc5655259aa281a21", size = 140532 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b2/27/fe8caa4884611286b1f7d6c5cfd76e1fef188faaa946db4fde6daa1cd2cd/langchain_experimental-0.3.4-py3-none-any.whl", hash = "sha256:2e587306aea36b60fa5e5fc05dc7281bee9f60a806f0bf9d30916e0ee096af80", size = 209154 },
+]
+
+[[package]]
+name = "langchain-mcp-adapters"
+version = "0.1.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "langchain-core" },
+    { name = "mcp" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/b0/de/62a6ee2c21f74eed961773e75a4e3170f8abc79fd5fd7a1b4e2ea07f4c04/langchain_mcp_adapters-0.1.1.tar.gz", hash = "sha256:e43ddf06e4ce237ad80f5c91d0efa7fd7c845b274a5a07e7e8a7f9d7239331d7", size = 17359 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/30/68/13405f252b38a8e1bd7ef345907a4e0eda535c2ca36fe4d6821fc7e9f5de/langchain_mcp_adapters-0.1.1-py3-none-any.whl", hash = "sha256:81594b265d824012040ebd24056fbdb5aabf0b46f780e369ed132421e3411e4d", size = 12100 },
 ]
 
 [[package]]
