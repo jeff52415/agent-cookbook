@@ -30,6 +30,8 @@ Jump into any cookbook and start experimenting!
 
 ### 🌐 **External Integrations**
 - [`huggingface_inference_client.ipynb`](cookbooks/huggingface_inference_client.ipynb) - HF model integration
+- 🧩 **MCP Integration**
+- [`langgraph-mcp.ipynb`](cookbooks/langgraph-mcp.ipynb) - Use LangGraph agents with the Multi-Command Protocol (MCP) to connect LLMs to external services (e.g., GitHub) via secure tool-calling and stdio/docker bridges.
 
 ## 🎯 What's Inside
 
